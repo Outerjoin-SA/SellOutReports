@@ -1,0 +1,8 @@
+<!doctype html><html><body>
+<!-- Jekyll/Liquid would ERROR on all of this: -->
+{% invalid_tag this would break a jekyll build %}
+{{ unclosed_variable_reference
+{{ page.nonexistent | filter_that_does_not_exist }}
+<script>const x = `${templateLiteral}`; const o = {v:2, mode:"otp"};</script>
+NOJEKYLL-PROBE-OK
+</body></html>
